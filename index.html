@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+    <title>Star Wars RPG</title>
+
+</head>
+<body>
+    <h1>Star Wars RPG</h1>
+
+    <div class="container" id="one">
+        <div class="heading1">Your Character</div>        
+        <div class="character">
+            <figure id="char1">
+                <figcaption id='hero1-label'></figcaption>
+                <img id='hero1-pic' src="" />
+                <figcaption id="hero1-hp"></figcaption>
+            </figure>
+
+            <figure id="char2">
+                <figcaption id='hero2-label'></figcaption>
+                <img id='hero2-pic' src="" />
+                <figcaption id="hero2-hp"></figcaption>
+            </figure>
+
+            <figure id="char3">
+                <figcaption id='hero3-label'></figcaption>
+                <img id='hero3-pic' src="" />
+                <figcaption id="hero3-hp"></figcaption>
+            </figure>
+
+            <figure id="char4">
+                <figcaption id='hero4-label'></figcaption>
+                <img id='hero4-pic' src="" />
+                <figcaption id="hero4-hp"></figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+    <div class="container" id="two">
+        <div class="heading2">Enemies Available To Attack</div>
+        <div class="enemies">
+            <figure id="enemy1">
+                <figcaption id="enemy1-label"></figcaption>
+                <img id="enemy1-pic" src="" />
+                <figcaption id="enemy1-hp"></figcaption>
+            </figure>
+
+            <figure id="enemy2">
+                <figcaption id="enemy2-label"></figcaption>
+                <img id="enemy2-pic" src="" />
+                <figcaption id="enemy2-hp"></figcaption>
+            </figure>
+            <figure id="enemy3">
+                <figcaption id="enemy3-label"></figcaption>
+                <img id="enemy3-pic" src="" />
+                <figcaption id="enemy3-hp"></figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="container" id="three">
+        <div class="heading3">Fight Section</div>
+        <div>
+            <button id='attack'>Attack</button>
+        </div>
+    </div>
+
+    <div class="container" id="four">
+        <div class="heading4">Defender</div>
+        <div class="defender">
+            <figure class="defender1">
+                <figcaption id='defender-label'></figcaption>
+                <img id='defender-pic' src="" />
+                <figcaption id='defender-hp'></figcaption>
+            </figure>
+        </div>
+        <div class="status">
+            <div id="msg1"></div>
+            <div id="msg2"></div>
+            <div>
+                <button id="reset">Reset</button>
+            </div>            
+        </div>
+    </div>        
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- game -->
+    <script src="assets/javascript/game.js" ></script>
+</body>
+</html>
