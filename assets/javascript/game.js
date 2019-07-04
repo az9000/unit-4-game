@@ -15,7 +15,7 @@ $(document).ready(function() {
         6
     ];
 
-    var path = '../assets/images/';
+    var path = 'assets/images/';
 
     var hero1 = {
         healthPoints: defaultHealthPoints[0],
