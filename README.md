@@ -1,8 +1,8 @@
-#**Star Wars RPG**
-##Summary
+**Star Wars RPG**
+##Summary##
 A web-based jQuery game, in which the player picks one of four characters that would fight the other three characters, until that character wins, or loses the game.
 
-##How to play
+##How to play##
 Each character has a *healthpoint* value printed at the bottom of that character's picture.
 Once a character is selected, the remaining characters are moved to the *Enemies Available To Attack* area.
 Click an enemy, and that enemy will now move to the *Defender* area. The *attack" button is now available to the player in the *Fight" section!
